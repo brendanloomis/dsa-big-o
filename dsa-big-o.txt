@@ -1,0 +1,33 @@
+1. What is the Big O for this?
+    1. O(1)
+    2. O(n)
+
+2. Even or Odd
+    O(1) because it is performing a basic mathematical operation and will take the
+    same amount of time no matter what the input is.
+
+3. Are You here?
+    O(n^2) because there are two nested loops and you have to iterate through 2 arrays
+
+4. Doubler
+    O(n) because you are iterating through one array. 
+
+5. Naive search
+    O(n) because you are looping through one array and just checking if the item is in the array.
+
+6. Creating pairs
+    O(n^2) because there is a nested loop
+
+7. Compute the sequence
+    The algorithm returns the fibonacci sequence for the number input.
+    O(n) because as the number gets higher, the amount of time would go up linearly.
+
+8. An efficient search
+    O(log(n)) because you are cutting the array in half each time you go through the loop.
+
+9. Random element
+    O(1) because you are returning a random item from the array.
+
+10. What am I?
+    The algorithm is checking if the number is a prime number.
+    O(n) because the amount of time is directly proportional to input size
